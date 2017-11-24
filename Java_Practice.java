@@ -19,6 +19,7 @@ public class Java_Practice {
         //This is the 'cin' equivalent for Java.
         int num = input.nextInt();
         
+        //This will prompt the user to type a second value.
         int numTwo = input.nextInt();
         
         //Another message.
@@ -26,6 +27,9 @@ public class Java_Practice {
         
         //This will print the variable that the user typed.
         System.out.println(num + numTwo);
+        
+        //This is good practice to have.
+        input.close();
     }
     
 }
